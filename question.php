@@ -21,8 +21,8 @@ $from = "questionpage";
 require_once 'function.php';
 require_once './support/check.php';
 require_once 'dbcon.php';
-header("Location: https://celesta.org.in/njath/leaderboard.php");
-die();
+// header("Location: https://celesta.org.in/njath/leaderboard.php");
+// die();
 function check_answer($ans) {
     $quesFor = $_SESSION["question"];
     $browserOfuser = NULL;
@@ -198,9 +198,9 @@ $question = mysqli_fetch_array(mysqli_query($db_connection, $query));
                 <span>The Discussion Forum</span>
             </a>
 
-            <a href="https://celesta.org.in">
-                <span>Celesta 2k19</span>
-                <span>A Stellar Trek</span>
+            <a href="https://anwesha.info">
+                <span>Anwesha 2k20</span>
+                <span>A Reflection of Fond Rememberances</span>
             </a>
             <a href="./logout.php">
                 <span>Logout</span>

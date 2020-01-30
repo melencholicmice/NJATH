@@ -3,8 +3,8 @@
 $from = "registerpage";
  ini_set("display_errors"   , 1);
 require_once 'function.php';
-header("Location: https://celesta.org.in/njath/leaderboard.php");
-die();
+// header("Location: https://celesta.org.in/njath/leaderboard.php");
+// die();
 if($_SERVER['REQUEST_METHOD'] == 'POST')
 {
 
@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     session_start();
     // include("dbcon.php");
     global $db_connection;
-    $db_connection = mysqli_connect('localhost','celestao','l5da6rV15J','celestao_njath');
+    $db_connection = mysqli_connect('localhost','anwesgzc_anwesha','@nwesh@2K20','anwesgzc_njath');
     $user = $_POST["usernamesignup"];
     $anw = $_SESSION["uid"];
     // $anw = intval(substr($anw, 3));

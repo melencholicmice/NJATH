@@ -30,7 +30,7 @@ require_once './support/dbcon.php';
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         
-        <title>NJATH Remastered | Leaderboard</title>
+        <title>NJATH Anwesha2k20 | Leaderboard</title>
         <link href="leaderboard.css" rel="stylesheet" type="text/css" />
         <link href="navbar.css" rel="stylesheet" type="text/css"/>
             <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -75,9 +75,9 @@ require_once './support/dbcon.php';
                 <span>IIT Patna</span>
                 <span>All about our college</span>
             </a>
-            <a href="https://celesta.org.in">
-                <span>Celesta 2k19</span>
-                <span>A Stellar Trek</span>
+            <a href="https://anwesha.info">
+                <span>Anwesha 2k20</span>
+                <span>A Reflection of Fond Rememberances</span>
             </a>
             <a href="rules.php">
                 <span>Rules</span>
@@ -88,11 +88,11 @@ require_once './support/dbcon.php';
             <!--    <span>Is it getting too difficult?</span>-->
             <!--</a>-->
         </nav>
-        <div style="margin-top:40px; color:red;display: flex;justify-content: center; background-color:black">
-            <h2 style="color:red">Thank you for participating in NJATH. Results will be upload on the NJATH and Celesta FB Pages.
+        <!-- <div style="margin-top:40px; color:red;display: flex;justify-content: center; background-color:black">
+            <h2 style="color:red">Thank you for participating in NJATH. Results will be upload on the NJATH and Anwesha FB Pages.
     <br><span style="color:white">NJATH: <a href="https://www.facebook.com/iit.njath/" style="color:white">https://www.facebook.com/iit.njath/</a>
-    <br>Celesta: <a href="https://www.facebook.com/CelestaIITP/" style="color:white">https://www.facebook.com/CelestaIITP/</a></span></h2>
-        </div>
+    <br>Anwesha: <a href="https://www.facebook.com/anwesha.iitpatna/" style="color:white">https://www.facebook.com/anwesha.iitpatna/</a></span></h2>
+        </div> -->
         <div id="table">
             <table class="data-table">
                 <thead>

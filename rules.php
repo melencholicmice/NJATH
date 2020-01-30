@@ -70,9 +70,9 @@ require_once './support/check.php';
                 <span>IIT Patna</span>
                 <span>All about our college</span>
             </a>
-            <a href="https://celesta.org.in">
-                <span>Celesta 2k19</span>
-                <span>A Stellar Trek</span>
+            <a href="https://anwesha.info">
+                <span>Anwesha 2k20</span>
+                <span>A Reflection of Fond Rememberances</span>
             </a>
             <a href="./logout.php">
                 <span>Logout</span>
@@ -83,7 +83,7 @@ require_once './support/check.php';
             <h2>Rules for the contest</h2>
 
             <ol id="rules-list">
-                <li> <p> NJATH is an online treasure-hunt contest conducted during Celesta. You will be given questions, and you have to decipher the solution. Be careful with spellings and answers to questions. </p> </li> 
+                <li> <p> NJATH is an online treasure-hunt contest conducted during Anwesha. You will be given questions, and you have to decipher the solution. Be careful with spellings and answers to questions. </p> </li> 
                 <li> <p> Look out for clues and hints everywhere including the URL of the page, the page source and all the details provided in the question. You can use Google, Wikipedia or anything else for help. </p> </li> 
                 <li> <p> Only answers as alpha-numeric characters in lower case (a-z, 0-9) are allowed. e.g. Suppose your answer is “I Love NJATH”, then write it as “ilovenjath”. In case of dates like 31st Jan 2016, write 31012016. </p> </li> 
                 <li> <p> Stay tuned on the Discussion forum on our FB page for getting hints. </p> </li> 

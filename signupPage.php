@@ -8,8 +8,8 @@ session_start();
          header("Location: ./accessdenied");
          die();
     }
-    header("Location: https://celesta.org.in/njath/leaderboard.php");
-	die();
+    // header("Location: https://celesta.org.in/njath/leaderboard.php");
+	// die();
 ?>
 <!DOCTYPE HTML>
 <html>

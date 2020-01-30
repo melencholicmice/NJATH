@@ -21,8 +21,8 @@ $from = "profilepage";
 require_once 'function.php';
 require './support/check.php';
 $_SESSION["loan"]=0;
-header("Location: https://celesta.org.in/njath/leaderboard.php");
-die();
+// header("Location: https://anwesha.info/njath/leaderboard.php");
+// die();
 function get_max_loan()
 {
     require './support/dbcon.php';
@@ -197,9 +197,9 @@ unset($_POST);
                 <span>IIT Patna</span>
                 <span>All about our college</span>
             </a>
-            <a href="https://celesta.org.in">
-                <span>Celesta 2k19</span>
-                <span>A Stellar Trek</span>
+            <a href="https://anwesha.info">
+                <span>Anwesha 2k20</span>
+                <span>A Reflection of Fond Rememberances</span>
             </a>
             <a href="./logout.php">
                 <span>Logout</span>
