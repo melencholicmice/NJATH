@@ -1,0 +1,6 @@
+[01-Feb-2020 12:29:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'anwesgzc_anwesha'@'localhost' (using password: YES) in /Users/amartyamondal/Sites/njath_anwesha/dbcon.php on line 35
+[01-Feb-2020 12:29:57 UTC] PHP Fatal error:  Uncaught Exception: Failed to connect to MySQL: Access denied for user 'anwesgzc_anwesha'@'localhost' (using password: YES) in /Users/amartyamondal/Sites/njath_anwesha/dbcon.php:39
+Stack trace:
+#0 /Users/amartyamondal/Sites/njath_anwesha/index.php(18): include()
+#1 {main}
+  thrown in /Users/amartyamondal/Sites/njath_anwesha/dbcon.php on line 39
