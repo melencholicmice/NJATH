@@ -23,9 +23,9 @@ require_once 'function.php';
 require './support/check.php';
 
 destroy_session();
-if(isset($db_connection) && !empty($db_connection)){
-	mysqli_close($db_connection);
-}
+// if(isset($db_connection) && !empty($db_connection)){
+// 	mysqli_close($db_connection);
+// }
 header("Location: ./index.php?msg=Logged%20out...");
 die();
 ?>

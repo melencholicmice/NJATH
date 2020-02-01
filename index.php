@@ -1,13 +1,14 @@
-<?php
-	ob_start();
+<?php ob_start();
 	session_start();
 	require_once 'function.php';
 	$_SESSION['name']="Buddy";
+	// $_SESSION["userID"]="ANW2001";
 	// header("Location: https://celesta.org.in/njath/leaderboard.php");
 	// die();
+	// $_SESSION["userID"]="ANW2095";
 	if(!isset($_SESSION["userID"]))
 	{
-		 header("Location: https://anwesha.info/backend/user/signin.php?fromNjath=NJATH");
+		 header("Location: http://anwesha.info/backend/user/signin.php?fromNjath=NJATH");
 		//  die();
 	}
 	else

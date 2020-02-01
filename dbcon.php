@@ -33,6 +33,7 @@ if (!isset($db_connection)) {
 
     global $db_connection;
     $db_connection = mysqli_connect('localhost','anwesgzc_anwesha','@nwesh@2K20','anwesgzc_njath');
+    // $db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
     // Check connection
     if (mysqli_connect_errno()) {
         throw new Exception("Failed to connect to MySQL: " . mysqli_connect_error());

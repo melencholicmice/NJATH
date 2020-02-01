@@ -16,13 +16,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     }
     // global $db_connection;
     // require './support/dbcon.php';
-    // $db_username = "anwesha_njath";
-    // $db_password = "N27-us61tenK";
     // $db_connection = mysqli_connect("localhost", $db_username, $db_password, "anwesha_njath");
     session_start();
     // include("dbcon.php");
     global $db_connection;
     $db_connection = mysqli_connect('localhost','anwesgzc_anwesha','@nwesh@2K20','anwesgzc_njath');
+   // $db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
     $user = $_POST["usernamesignup"];
     $anw = $_SESSION["uid"];
     // $anw = intval(substr($anw, 3));
@@ -34,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 
     $res=mysqli_query($db_connection,$query);
     if (!$res) {
-        $error["msg"] = "Celesta id has been already registered.";
+        $error["msg"] = "Anwesha id has been already registered.";
         $error["component"] = "Contestants";
     }
     echo mysqli_error($db_connection);
