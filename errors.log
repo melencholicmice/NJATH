@@ -4,3 +4,34 @@ Stack trace:
 #0 /Users/amartyamondal/Sites/njath_anwesha/index.php(18): include()
 #1 {main}
   thrown in /Users/amartyamondal/Sites/njath_anwesha/dbcon.php on line 39
+[17-Dec-2020 11:26:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'anwesgzc_anwesha'@'localhost' (using password: YES) in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/dbcon.php on line 35
+[17-Dec-2020 11:26:24 UTC] PHP Fatal error:  Uncaught Exception: Failed to connect to MySQL: Access denied for user 'anwesgzc_anwesha'@'localhost' (using password: YES) in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/dbcon.php:39
+Stack trace:
+#0 /Users/amartyamondal/Sites/NJATH-Anwesha2k20/index.php(18): include()
+#1 {main}
+  thrown in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/dbcon.php on line 39
+[17-Dec-2020 11:27:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 6
+[17-Dec-2020 11:27:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 6
+[17-Dec-2020 11:27:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'anwesgzc_anwesha'@'localhost' (using password: YES) in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 23
+[17-Dec-2020 11:27:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 34
+[17-Dec-2020 11:27:16 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 39
+[17-Dec-2020 11:27:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 2
+[17-Dec-2020 11:27:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 6
+[17-Dec-2020 11:27:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 6
+[17-Dec-2020 11:28:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'anwesgzc_anwesha'@'localhost' (using password: YES) in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 23
+[17-Dec-2020 11:28:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 34
+[17-Dec-2020 11:28:15 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 39
+[17-Dec-2020 11:28:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 2
+[17-Dec-2020 11:28:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 6
+[17-Dec-2020 11:28:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 6
+[17-Dec-2020 11:28:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'anwesgzc_anwesha'@'localhost' (using password: YES) in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 23
+[17-Dec-2020 11:28:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 34
+[17-Dec-2020 11:28:28 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/register.php on line 39
+[17-Dec-2020 11:28:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 2
+[17-Dec-2020 11:28:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 6
+[17-Dec-2020 11:28:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/signupPage.php on line 6
+[17-Dec-2020 11:29:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/support/check.php on line 3
+[17-Dec-2020 11:32:04 UTC] PHP Notice:  Undefined index: Solves in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/question.php on line 94
+[17-Dec-2020 11:32:04 UTC] PHP Notice:  Undefined index: First Solve in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/question.php on line 96
+[17-Dec-2020 11:32:04 UTC] PHP Notice:  Undefined index: First Solve in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/question.php on line 101
+[17-Dec-2020 11:55:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /Users/amartyamondal/Sites/NJATH-Anwesha2k20/support/check.php on line 3

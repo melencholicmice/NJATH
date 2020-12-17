@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     session_start();
     // include("dbcon.php");
     global $db_connection;
-    $db_connection = mysqli_connect('localhost','anwesgzc_anwesha','@nwesh@2K20','anwesgzc_njath');
+    $db_connection =  mysqli_connect('localhost','atm1504','11312113','njath');
    // $db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
     $user = $_POST["usernamesignup"];
     $anw = $_SESSION["uid"];
