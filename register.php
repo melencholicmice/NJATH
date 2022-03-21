@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     session_start();
     // include("dbcon.php");
     global $db_connection;
-    $db_connection =  mysqli_connect('localhost','atm1504','11312113','njath');
+    $db_connection =  mysqli_connect('localhost','ankit','ankit.das','njath_celesta2020');
    // $db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
     $user = $_POST["usernamesignup"];
     $anw = $_SESSION["uid"];
@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 
     $res=mysqli_query($db_connection,$query);
     if (!$res) {
-        $error["msg"] = "Anwesha id has been already registered.";
+        $error["msg"] = "username has been already registered.";
         $error["component"] = "Contestants";
     }
     echo mysqli_error($db_connection);

@@ -30,7 +30,7 @@ require_once './support/dbcon.php';
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         
-        <title>NJATH Anwesha2k20 | Leaderboard</title>
+        <title>NJATH Celesta2k20 | Leaderboard</title>
         <link href="leaderboard.css" rel="stylesheet" type="text/css" />
         <link href="navbar.css" rel="stylesheet" type="text/css"/>
             <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -60,9 +60,9 @@ require_once './support/dbcon.php';
                     <span>Login</span>
                     <span>Start the Awesome</span>
                 </a>
-                <a href="register.php">
-                    <span>Register</span>
-                    <span>New to the challenge?</span>
+                <a href="http://celesta.tech/register-page" >
+                    <span>Celesta Register</span>
+                    <span>Click to register to Celesta</span>
                 </a>
                 <?php
             }
@@ -75,13 +75,17 @@ require_once './support/dbcon.php';
                 <span>IIT Patna</span>
                 <span>All about our college</span>
             </a>
-            <a href="https://anwesha.info">
-                <span>Anwesha 2k20</span>
-                <span>A Reflection of Fond Rememberances</span>
+            <a href="https://celesta.tech/">
+                <span>Celesta 2k20</span>
+                <span>Into the Cyberverse</span>
             </a>
             <a href="rules.php">
                 <span>Rules</span>
                 <span>The law of the Land!!!</span>
+            </a>
+            <a href="http://njath.org.in/tshirt.html">
+                <span>Celesta T-shirt</span>
+                <span>Click here to buy!!</span>
             </a>
             <!--<a href="./logout.php">-->
             <!--    <span>Logout</span>-->

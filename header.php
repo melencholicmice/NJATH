@@ -18,7 +18,7 @@
                 <a class="nav-link" href="https://www.facebook.com/iit.njath/app/202980683107053/">Forum</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../index.html">Anwesha </a>
+                <a class="nav-link" href="https://celesta.org.in/">Celesta </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="www.iitp.ac.in">IIT Patna</a>

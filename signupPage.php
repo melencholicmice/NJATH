@@ -17,7 +17,7 @@ session_start();
         
         <link href="navbar.css" type="text/css" rel="stylesheet" />
         <link href="register.css" type="text/css" rel="stylesheet" />
-        <title>NJATH - Anwesha 2k20 Registration</title>
+        <title>NJATH - Celesta 2k20 Registration</title>
         <script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>
     </head>
     <body>
@@ -25,6 +25,10 @@ session_start();
             <a href="index.php" >
                 <span>Login</span>
                 <span>Start the Awesome</span>
+            </a>
+            <a href="http://celesta.tech/register-page" >
+                <span>Celesta Register</span>
+                <span>Click to register to Celesta</span>
             </a>
             <a href="leaderboard.php">
                 <span>Leaderboard</span>
@@ -34,9 +38,9 @@ session_start();
                 <span>Forum</span>
                 <span>The Discussion Forum</span>
             </a>
-            <a href="https://anwesha.info">
-                <span>Anwesha 2k20</span>
-                <span>A Fond of Rememberances</span>
+            <a href="https://celesta.tech/">
+                <span>Celesta 2k20</span>
+                <span>Into the Cyberverse</span>
             </a>
             <a href="http://www.iitp.ac.in">
                 <span>IIT Patna</span>
@@ -45,6 +49,10 @@ session_start();
             <a href="rules.php">
                 <span>Rules</span>
                 <span>The law of the Land!!!</span>
+            </a>
+            <a href="http://njath.org.in/tshirt.html">
+                <span>Celesta T-shirt</span>
+                <span>Click here to buy!!</span>
             </a>
         </nav>
         <div id="wrapper">
@@ -66,7 +74,7 @@ session_start();
                            type="text" placeholder="eg. thejoker69" 
                            value="<?php if (isset($error["component"]) && $error["component"] != "username") echo $_POST["usernamesignup"]; ?>"
                            class="<?php if (isset($error["component"]) && $error["component"] == "username") echo 'error-component'; ?>"/>
-                    <h1><?php echo "Hello ".$_SESSION["name"]." your Anwesha id is ".$_SESSION["uid"]; ?></h1>
+                    <h1><?php echo "Hello ".$_SESSION["name"]." your Celesta id is ".$_SESSION["uid"]; ?></h1>
                 <p class="signin button"> 
                     <input type="submit" value="Sign up"/> 
                 </p>

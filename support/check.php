@@ -1,7 +1,7 @@
 <?php
 // require_once './dbcon.php';
 session_start();
-$db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
+$db_connection = mysqli_connect('localhost','ankit','ankit.das','njath_celesta2020');
 // $db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
 if (!isset($CONST)) {
 

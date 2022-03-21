@@ -198,13 +198,17 @@ $question = mysqli_fetch_array(mysqli_query($db_connection, $query));
                 <span>The Discussion Forum</span>
             </a>
 
-            <a href="https://anwesha.info">
-                <span>Anwesha 2k20</span>
-                <span>A Reflection of Fond Rememberances</span>
+            <a href="https://celesta.tech/">
+                <span>Celesta 2k20</span>
+                <span>Into the Cyberverse</span>
             </a>
             <a href="./logout.php">
                 <span>Logout</span>
                 <span>Out of your wits? Why give up so early?</span>
+            </a>
+            <a href="http://njath.org.in/tshirt.html">
+                <span>Celesta T-shirt</span>
+                <span>Click here to buy!!</span>
             </a>
         </nav>
 

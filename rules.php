@@ -51,9 +51,9 @@ require_once './support/check.php';
                     <span>Login</span>
                     <span>Start the Awesome</span>
                 </a>
-                <a href="register.php">
-                    <span>Register</span>
-                    <span>New to the challenge ?</span>
+                <a href="http://celesta.tech/register-page" >
+                    <span>Celesta Register</span>
+                    <span>Click to register to Celesta</span>
                 </a>
                 <?php
             }
@@ -70,20 +70,24 @@ require_once './support/check.php';
                 <span>IIT Patna</span>
                 <span>All about our college</span>
             </a>
-            <a href="https://anwesha.info">
-                <span>Anwesha 2k20</span>
-                <span>A Reflection of Fond Rememberances</span>
+            <a href="https://celesta.tech/">
+                <span>Celesta 2k20</span>
+                <span>Into the Cyberverse</span>
             </a>
             <a href="./logout.php">
                 <span>Logout</span>
                 <span>Is it getting too difficult?</span>
+            </a>
+            <a href="http://njath.org.in/tshirt.html">
+                <span>Celesta T-shirt</span>
+                <span>Click here to buy!!</span>
             </a>
         </nav>
         <div id="rules-content">
             <h2>Rules for the contest</h2>
 
             <ol id="rules-list">
-                <li> <p> NJATH is an online treasure-hunt contest conducted during Anwesha. You will be given questions, and you have to decipher the solution. Be careful with spellings and answers to questions. </p> </li> 
+                <li> <p> NJATH is an online treasure-hunt contest conducted during Celesta. You will be given questions, and you have to decipher the solution. Be careful with spellings and answers to questions. </p> </li> 
                 <li> <p> Look out for clues and hints everywhere including the URL of the page, the page source and all the details provided in the question. You can use Google, Wikipedia or anything else for help. </p> </li> 
                 <li> <p> Only answers as alpha-numeric characters in lower case (a-z, 0-9) are allowed. e.g. Suppose your answer is “I Love NJATH”, then write it as “ilovenjath”. In case of dates like 31st Jan 2016, write 31012016. </p> </li> 
                 <li> <p> Stay tuned on the Discussion forum on our FB page for getting hints. </p> </li> 

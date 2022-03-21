@@ -5,10 +5,10 @@
 	// $_SESSION["userID"]="ANW2001";
 	// header("Location: https://celesta.org.in/njath/leaderboard.php");
 	// die();
-	$_SESSION["userID"]="ANW2000";
+	// $_SESSION["userID"]="ANW2000";
 	if(!isset($_SESSION["userID"]))
 	{
-		 header("Location: http://anwesha.info/backend/user/signin.php?fromNjath=NJATH");
+		 header("Location: ./apiAuth.php");
 		//  die();
 	}
 	else
