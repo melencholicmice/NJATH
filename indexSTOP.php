@@ -82,7 +82,7 @@ require './support/check.php';
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>NJATH - Celesta2k20 - HOME</title>
+        <title>NJATH - Celesta2k23 - HOME</title>
         <link href="index.css" rel="stylesheet" type="text/css" />
         <link href="navbar.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
@@ -101,17 +101,14 @@ require './support/check.php';
                 <span>Leaderboard</span>
                 <span>The Rulers</span>
             </a>
-            <a href="https://apps.facebook.com/forumforpages/464686653559952/ee4d9fda-9f7e-4ef4-b531-e44a0861ff0c/0">
-                <span>Forum</span>
-                <span>The Discussion Forum</span>
-            </a>
+            
             <a href="http://www.iitp.ac.in">
                 <span>IIT Patna</span>
                 <span>About our college</span>
             </a>
-            <a href="https://celesta.tech/">
-                <span>Celesta 2k20</span>
-                <span>Into the Cyberverse</span>
+            <a href="https://celesta.iitp.ac.in">
+                <span>Celesta 2k23</span>
+                <span>Chrysalis Dawn</span>
             </a>
           
             <a href="rules.php">

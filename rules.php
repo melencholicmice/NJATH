@@ -17,6 +17,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 //header('Location: http://njath.anwesha.info/closed.html');
+error_reporting(E_ALL);
+ini_set("display_errors", true);
+
 require_once 'function.php';
 require_once './support/dbcon.php';
 $from = "leaderboard";
@@ -51,7 +54,7 @@ require_once './support/check.php';
                     <span>Login</span>
                     <span>Start the Awesome</span>
                 </a>
-                <a href="http://celesta.tech/register-page" >
+                <a href="https://celesta.iitp.ac.in" >
                     <span>Celesta Register</span>
                     <span>Click to register to Celesta</span>
                 </a>
@@ -62,7 +65,7 @@ require_once './support/check.php';
                 <span>Leaderboard</span>
                 <span>View the Leaderboard</span>
             </a>
-            <a href="https://apps.facebook.com/forumforpages/464686653559952/a6c4f51a-85e8-4569-bf03-150921d00852/0">
+	    <a href="https://chat.whatsapp.com/Kipm325IF01LXS1gSbJpNY">
                 <span>Forum</span>
                 <span>The Discussion Forum</span>
             </a>
@@ -70,9 +73,9 @@ require_once './support/check.php';
                 <span>IIT Patna</span>
                 <span>All about our college</span>
             </a>
-            <a href="https://celesta.tech/">
-                <span>Celesta 2k20</span>
-                <span>Into the Cyberverse</span>
+            <a href="https://celesta.iitp.ac.in">
+                <span>Celesta 2k23</span>
+                <span>Chrysalis Dawn</span>
             </a>
             <a href="./logout.php">
                 <span>Logout</span>
@@ -103,9 +106,7 @@ require_once './support/check.php';
                 <li> <p> Each player starts off with a score of 40x(level no.), in each level. You will be awarded scores for correct answers.  </p> </li> 
                 <li> <p> You will have to pay score costs for opening questions, which will be deducted from level score and not from total score so choose wisely! The level score at no point of time can fall below zero! </p> </li> 
                 <li> <p> The player who has the maximum points at the end is the Winner. </p></li>
-                
-
-                        </ol>
-                        </div>
-                        </body>
-                        </html>
+            </ol>
+        </div>
+    </body>
+</html>

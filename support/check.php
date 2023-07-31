@@ -1,13 +1,14 @@
 <?php
 // require_once './dbcon.php';
+
 session_start();
-$db_connection = mysqli_connect('localhost','ankit','ankit.das','njath_celesta2020');
+$db_connection = mysqli_connect('localhost','celesta','L1iQrAMSv!qXyEGg#','celesta');
 // $db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
 if (!isset($CONST)) {
 
     $CONST["advance"] = 6;
 
-    $CONST["njath-home"] = "https://njath.celesta.org.in";
+    // $CONST["njath-home"] = "https://njath.celesta.org.in";
     // 
     
     $query = "SELECT COUNT(DISTINCT SUBSTRING(`Question ID`,1,1)) AS `C` FROM `Questions`";

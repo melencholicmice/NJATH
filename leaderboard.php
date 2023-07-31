@@ -30,7 +30,7 @@ require_once './support/dbcon.php';
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         
-        <title>NJATH Celesta2k20 | Leaderboard</title>
+        <title>NJATH Celesta2k23 | Leaderboard</title>
         <link href="leaderboard.css" rel="stylesheet" type="text/css" />
         <link href="navbar.css" rel="stylesheet" type="text/css"/>
             <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -56,36 +56,26 @@ require_once './support/dbcon.php';
                 <?php
             } else {
                 ?>
-                <a href="index.php" >
+                <a href="apiAuth.php" >
                     <span>Login</span>
                     <span>Start the Awesome</span>
                 </a>
-                <a href="http://celesta.tech/register-page" >
-                    <span>Celesta Register</span>
-                    <span>Click to register to Celesta</span>
-                </a>
+                
                 <?php
             }
             ?>
-            <a href="https://apps.facebook.com/forumforpages/464686653559952/ee4d9fda-9f7e-4ef4-b531-e44a0861ff0c/0">
-                <span>Forum</span>
-                <span>The Discussion Forum</span>
-            </a>
+            
             <a href="http://www.iitp.ac.in">
                 <span>IIT Patna</span>
                 <span>All about our college</span>
             </a>
-            <a href="https://celesta.tech/">
-                <span>Celesta 2k20</span>
-                <span>Into the Cyberverse</span>
+            <a href="https://celesta.iitp.ac.in">
+                <span>Celesta 2k23</span>
+                <span>Chrysalis Dawn</span>
             </a>
             <a href="rules.php">
                 <span>Rules</span>
                 <span>The law of the Land!!!</span>
-            </a>
-            <a href="http://njath.org.in/tshirt.html">
-                <span>Celesta T-shirt</span>
-                <span>Click here to buy!!</span>
             </a>
             <!--<a href="./logout.php">-->
             <!--    <span>Logout</span>-->

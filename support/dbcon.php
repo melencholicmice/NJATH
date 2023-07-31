@@ -32,7 +32,7 @@ if (!isset($db_connection)) {
     }
 
     global $db_connection;
-    $db_connection = mysqli_connect('localhost','ankit','ankit.das','njath_celesta2020');
+    $db_connection = mysqli_connect('localhost','celesta','L1iQrAMSv!qXyEGg#','celesta');
     // $db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
     // Check connection
     if (mysqli_connect_errno()) {

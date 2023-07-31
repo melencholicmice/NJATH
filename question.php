@@ -158,7 +158,7 @@ $question = mysqli_fetch_array(mysqli_query($db_connection, $query));
 
 ?>
 
-
+<!-- Here is another hint for question: 43 . 58 42, 15 . 23 01 -->
 <!DOCTYPE html>
 <html>
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -185,6 +185,10 @@ $question = mysqli_fetch_array(mysqli_query($db_connection, $query));
                 <span>Profile</span>
                 <span>Your homepage</span>
             </a>
+	    <a href="https://chat.whatsapp.com/Kipm325IF01LXS1gSbJpNY">
+		<span>Forum</span>
+		<span>Join the discussion</span>
+	   </a>
             <a href="./rules.php">
                 <span>Rules</span>
                 <span>The law of the Land!!!</span>
@@ -193,22 +197,15 @@ $question = mysqli_fetch_array(mysqli_query($db_connection, $query));
                 <span>Leaderboard</span>
                 <span>View the Leaderboard</span>
             </a>
-            <a href="https://www.facebook.com/iit.njath/app/202980683107053/">
-                <span>Forum</span>
-                <span>The Discussion Forum</span>
-            </a>
+	    
 
-            <a href="https://celesta.tech/">
-                <span>Celesta 2k20</span>
-                <span>Into the Cyberverse</span>
+            <a href="https://celesta.iitp.ac.in">
+                <span>Celesta 2k23</span>
+                <span>Chrysalis Dawn</span>
             </a>
             <a href="./logout.php">
                 <span>Logout</span>
                 <span>Out of your wits? Why give up so early?</span>
-            </a>
-            <a href="http://njath.org.in/tshirt.html">
-                <span>Celesta T-shirt</span>
-                <span>Click here to buy!!</span>
             </a>
         </nav>
 
@@ -255,7 +252,7 @@ $question = mysqli_fetch_array(mysqli_query($db_connection, $query));
                 // if (!check_tchest(2)) {
             		?>
             	
-             <img src="./images/<?php echo $question["Question Picture"]; ?>"/>
+             <img src="<?php echo $question["Question Picture"]; ?>"/>
             <?php
                 }
             ?>

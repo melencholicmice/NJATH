@@ -8,6 +8,7 @@
 	// $_SESSION["userID"]="ANW2000";
 	if(!isset($_SESSION["userID"]))
 	{
+		
 		 header("Location: ./apiAuth.php");
 		//  die();
 	}
@@ -15,6 +16,7 @@
 	{
 		$id = $_SESSION['userID'];
 		$_SESSION["uid"] = $_SESSION['userID'];
+		echo("<script>console.log($id);</script>");
 		include("dbcon.php");
 // 		require './support/dbcon.php';
 		$query = "SELECT * FROM `Contestants` WHERE `pid` = '$id'";
@@ -28,7 +30,7 @@
 		}
 		else
 		{
-			header("Location: ./signupPage.php");
+			header("Location: ./profile.php");
 			die();
 		}
 	}

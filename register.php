@@ -20,12 +20,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     session_start();
     // include("dbcon.php");
     global $db_connection;
-    $db_connection =  mysqli_connect('localhost','ankit','ankit.das','njath_celesta2020');
+    $db_connection =  mysqli_connect('localhost','celesta','L1iQrAMSv!qXyEGg#','celesta');
    // $db_connection = mysqli_connect('localhost','atm1504','11312113','njath');
     $user = $_POST["usernamesignup"];
-    $anw = $_SESSION["uid"];
+    $anw = $_POST["celestaId"];
+    $password = $_POST['password'];
     // $anw = intval(substr($anw, 3));
-    $hash = sha1($user);
+    $hash = sha1($password);
     $cost = 10;
     $disq=0;
     $query = "INSERT INTO `Contestants` (`username`, `pId`, `password`, `Disqualified`) VALUES ('$user', '$anw', '$hash', '$disq')";
@@ -74,7 +75,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     if (!isset($CONST)) {
 
         $CONST["advance"] = 6;
-        $CONST["njath-home"] = "njath.anwesha.info/";
+        // $CONST["njath-home"] = "njath.anwesha.info/";
         $query = "SELECT COUNT(DISTINCT SUBSTRING(`Question ID`,1,1)) AS `C` FROM `Questions`";
         $query = mysqli_fetch_array(mysqli_query($db_connection, $query));
         $CONST["levels"] = $query["C"];
